@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Nasi goreng recipe",
+    "submitter": "John Doe",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odit ad ratione, atque distinctio fugit ipsa natus repellendus, deleniti facere dolorem eligendi, iure eveniet sint dolore! Porro sit rem explicabo.",
+    "ingredients": [
+      "1 cup of rice",
+      "1 cup of beans",
+      "1 cup of meat",
+      "1 cup of vegetables",
+      "1 cup of spices"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Nasi goreng spicy recipe",
+    "submitter": "John Doe",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odit ad ratione, atque distinctio fugit ipsa natus repellendus, deleniti facere dolorem eligendi, iure eveniet sint dolore! Porro sit rem explicabo.",
+    "ingredients": [
+      "1 cup of rice",
+      "1 cup of beans",
+      "1 cup of meat",
+      "1 cup of vegetables",
+      "1 cup of spices",
+      "1 cup of sambal"
+    ]
+  }
+]
