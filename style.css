@@ -1,0 +1,37 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+header {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url('images/header_cover.jpg');
+  background-size: cover;
+}
+
+.btn-primary {
+  background-color: #1aa179;
+  border: 0px;
+  font-weight: lighter;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0d503c;
+}
+
+.body__header {
+  margin-top: 5em;
+}
+
+.primary__text {
+  color: #1aa179;
+}
+
+.card {
+  border-radius: 3%;
+  overflow: hidden;
+}
