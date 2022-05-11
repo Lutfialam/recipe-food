@@ -36,6 +36,10 @@ header {
   overflow: hidden;
 }
 
+.card-body {
+  height: 220px;
+}
+
 #image_recipe {
   border-radius: 30px;
   width: 100%;
@@ -46,4 +50,39 @@ header {
 
 .card-img-top {
   height: 200px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .recipe_not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+    padding-block: 4em;
+  }
+  #search_recipe {
+    margin-top: 10px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .recipe_not_found {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 4em;
+  }
+  #search_recipe {
+    margin-inline: 1em;
+  }
 }

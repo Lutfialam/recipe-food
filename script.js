@@ -17,9 +17,12 @@ const getCard = (recipe) => {
       <p class="card-text fw-light">
         ${recipe.description.slice(0, 100).concat(' ...') ?? 'Description'}
       </p>
-      <a href="./recipe_detail.html?recipe=${
-        recipe.id
-      }" class="btn btn-primary">Detail</a>
+
+      <div class="d-flex justify-content-end">
+        <a href="./recipe_detail.html?recipe=${
+          recipe.id
+        }" class="btn btn-primary">Detail</a>
+      </div>
     </div>
   </div>
 </div>`;
