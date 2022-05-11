@@ -38,12 +38,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Blog</a>
               <a class="nav-link" href="#">About</a>
             </div>
           </div>
-
-          <button class="btn btn-primary">Submit recipe</button>
         </div>
       </nav>
 
@@ -71,66 +68,34 @@
       <div class="row mt-2" id="latest_recipe"></div>
 
       <h1 class="mt-5">Other recipe</h1>
-      <div class="d-flex">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle fw-light"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
+      <div class="row">
+        <div class="col-lg-3">
+          <select
+            class="form-select"
+            aria-label="Select Category"
+            id="category"
           >
-            Category
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">All</a></li>
-            <li><a class="dropdown-item" href="#">Snack</a></li>
-            <li><a class="dropdown-item" href="#">Dessert</a></li>
-            <li><a class="dropdown-item" href="#">Breakfast</a></li>
-          </ul>
+            <option value="All" selected>All</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Breakfast">Breakfast</option>
+          </select>
         </div>
 
-        <input
-          type="search"
-          class="form-control mx-2"
-          id="search"
-          placeholder="Nasi goreng, salad, kebab or other"
-        />
-        <button class="btn btn-primary">Search</button>
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-4 p-2">
-          <div class="card">
-            <img src="images/header_cover.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text fw-light">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 p-2">
-          <div class="card">
-            <img src="images/header_cover.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text fw-light">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <div class="col-lg-9">
+          <input
+            type="search"
+            class="form-control mx-1"
+            id="search_recipe"
+            placeholder="Fried rice, rendang, opor or other"
+          />
         </div>
       </div>
+      <div class="row mt-4" id="recipe_result"></div>
     </main>
 
     <div class="container">
-      <footer class="py-5">
+      <footer class="pt-5 pb-2">
         <div class="row">
           <div class="col-2">
             <h5>Section</h5>
