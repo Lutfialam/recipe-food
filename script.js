@@ -94,17 +94,6 @@ const getRecipeDetail = () => {
   }
 };
 
-// const getRecipe = () => {
-//   let timeStamp = Math.floor(Date.now() / 1000);
-//   $.getJSON(`recipe_data.json?t=${timeStamp}`, (data) => {
-//     let recipe = '';
-
-//     const result = data.slice(0, 6);
-//     result.map((item) => (recipe += getCard(item)));
-//     $('#recipe_result').append(recipe);
-//   });
-// };
-
 const getRecipe = (search) => {
   $('#recipe_result').empty();
   let timeStamp = Math.floor(Date.now() / 1000);
